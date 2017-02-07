@@ -6,5 +6,9 @@ When Pillage.py is invoked, the script will run an Nmap scan of the host. It wil
 
 Note: This script calls many pentesting programs from the command-line and runs them asynchronously. For the program to work successfully, the applications must be installed separately. I typically run this script from Kali-Linux in a VM because these programs come natively with Kali.
 
+# Bombard
+Bombard is a single file pillage with most of the functionality of Pillage. However, the script omits the port scan to speed up scan time. This allows the attacker to customize what services they would like to test.
+
 # Usage
 python Pillage.py hosts.txt
+python Bombard.py hosts.txt
