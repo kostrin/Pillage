@@ -10,5 +10,5 @@ Note: This script calls many pentesting programs from the command-line and runs 
 Bombard is a single file pillage with most of the functionality of Pillage. However, the script omits the port scan to speed up scan time. This allows the attacker to customize what services they would like to test.
 
 # Usage
-python Pillage.py hosts.txt
-python Bombard.py hosts.txt
+- python Pillage.py hosts.txt
+- python Bombard.py hosts.txt
